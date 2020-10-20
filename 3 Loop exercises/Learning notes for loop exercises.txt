@@ -1,5 +1,5 @@
 Ex_61
-### In this I learned the use of the sum(list) function and the
+### In this i learned the use of the sum(list) function and the
 # list.append(element) function. ###
 
 Ex_63
@@ -13,7 +13,7 @@ Ex_65
 # I will try this approach in the next exercise. ###
 
 Ex_66
-### In this exercise I used the first input outside of the loop and the entry/
+### In this exercise I Used the first input outside of the loop and the entry/
 # escape line as the last line in the while loop ###
 
 Ex_68
@@ -35,7 +35,8 @@ Ex_70
 # -2 % 26 = 24
 # This is the same as counting back: 2, 1, 26, 25, 24.
 # The actual formula to work out the modulo divider operator '%' shows that this
-# works. ###
+# works. This is the cleanest way to deal with
+# list/string wrap arounds. ###
 
 Ex_71
 ### In this exercise I learned about the abs() function to get the absolute

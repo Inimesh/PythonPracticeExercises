@@ -1,4 +1,5 @@
 Ex_104
+
 ### Learned about the method, list.sort(reverse=True|False, key=myFunc)
 # which when parameters left empty will assort by ascending/alphabetical order,
 # based on the value of the number / first letter of the string.
@@ -13,6 +14,7 @@ Ex_104
 # list.append(data) will add data as an element to the list, even another list! ###
 
 Ex_105
+
 ### Exactly the same as Ex_104 but with sort(reverse=True) ###
 
 Ex_106
@@ -22,17 +24,11 @@ Ex_106
 # will remove the element at the specified index. ###
 
 Ex_107
+
 ### Learnt that you can check list as you go along when adding elements ###
 
-Ex_111
-### Used string.replace("X","Y"), which simply replaces every instance of
-# character "X" with character "Y". X and Y could be "" too.
-# string.split(separator, maxsplit) also splits a string into a list using The
-# separator argument is the character to use as the split marker and maxsplit
-# determines how many splits to do. Defaults (no arguments specified) are
-# whitespace and -1 (all occurences) respectively. ##
-
 Ex_116
+
 ### Discovered a new definition of the meaning of 'immutable'. A string is
 # defined as immutable and a good example of this is that you cannot do, for
 # example: string.lower()
@@ -42,7 +38,7 @@ Ex_116
 
 Ex_117
 ### Use of zip(list1, list2) to create a list of tuples, containing the
-# elements from both lists at the same list index. ###
+# elements from both lists at the same index as a pair. ###
 
 Ex_118
 ### Use of list.insert(index, elem) function. Inserts an element at a specified
@@ -53,10 +49,19 @@ Ex_119
 # function. Need to learn more about how and why variables get changed (local
 # and global variables etc.) ###
 
-Ex_122 - Ex_126
-STILL NEED TO DO
+Ex_123
+### I learned that if you want to evaluate if a list is empty, instead of writing
+# if len(list) < 0:
+#   "instruction"
+#
+# you can instead simply write
+#
+# if list:
+#   "instruction"
+###
 
 Ex_127
 ### Previous version was much longer than a few seconds. Needed optimizing.
 # Now uses an iterative method to generate multiples of a number and not
-# checking if % n == 0 each time. ###
+# checking if % n == 0 each time which is a lot heavier in terms of computation.
+###

@@ -44,14 +44,11 @@ Ex_169
 # calls per function which is a lot of branches on the tree ###
 
 Ex_170
-## I had to abandon this exercise as I spend three days on it and could not find
-# a solution to it. I also looked on the internet and found a solution whereby
-# a python library tool finds all non- repeating combinations of a set of a
-# specified number (n) of variables from a set of preassigned variables
-# (coin values) (so a list of every combination of n coins values) and then uses
-# recursion to go through this list (using the next() function) and see if the
-# specified total matches the value looked at. However, Ben explicitly said to
-# not use loops and the next() command on a list is basically iterating through
-# a list. I tried using tail end recursion but that did not work as function
-# arguments refer to a global object and so prior variables called as arguments
-# are not preserved (unlike local variable assignments in functions). ###
+## I tried to tackle this problem for quite a long time and then left it alone
+to come back to it later. I am now learning about classes and objects and the
+instance variables of objects meant that each object could hold its own unique
+variable which was key to solving this. In the question it gives examples of
+what can and can't be made as test cases but claims that $1.25 cannot be made
+form 7 coins, but it in fact can: 4 quarters (4 * $0.25), 2 dimes (2 * $0.10)
+# and a nickel ($0.05). I know this because my program found it which I then
+# checked myself! :) ###
